@@ -6,7 +6,7 @@ class Display(object):
 		sdl2.ext.init()
 
 		self.W, self.H = W, H
-		self.window = sdl2.ext.Window("SLAM",size=(W,H),position = (0,0))
+		self.window = sdl2.ext.Window("SLAM",size=(W,H),position = (0,30))
 		self.window.show()
 
 	def paint(self, img):

@@ -32,10 +32,10 @@ class Extractor(object):
 		if len(ret) > 0:
 			ret = np.array(ret)
 			# filter
-			model, inliers = ransac((ret[:, 0] , ret[:, 1]), 
+			model, inliners = ransac((ret[:, 0] , ret[:, 1]), 
 									FundamentalMatrixTransform,
-									min_samples=8, residual_threshold=0.01, max_trials=100)
-
+									min_samples=8, residual_threshold=1, max_trials=100)
+			ret = ret[inliners]
 		# return	
 		self.last = {'kps':kps, 'des':des}
-		return ret
+		return ret 
