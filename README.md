@@ -3,4 +3,4 @@
 > Original project by George Hotz can be found at https://github.com/geohot/twitchslam
 
 [Current progress]\
-[![Demo CountPages alpha](https://j.gifs.com/VPw0RB.gif)](https://youtu.be/IP0-AicVcDk)
+[![Demo CountPages alpha](https://j.gifs.com/pQ4X3X.gif)](https://youtu.be/IP0-AicVcDk)
