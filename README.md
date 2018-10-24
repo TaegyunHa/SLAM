@@ -4,3 +4,4 @@
 
 [Current progress]\
 [![Demo CountPages beta](https://j.gifs.com/yrqAoW.gif)](https://youtu.be/IP0-AicVcDk)
+[![Demo CountPages alpha](https://j.gifs.com/86GBV2.gif)](https://youtu.be/j_OYeAVVTjs)
